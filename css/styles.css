@@ -187,22 +187,6 @@ img {
   fill: var(--accent-color);
 }
 
-/* section-main */
-
-
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
 
 
 /* Section main */
@@ -309,7 +293,7 @@ button:focus {
 .btn-modal:hover,
 .btn-modal:focus {
   fill: var(--accent-color);
-  border: var(--accent-color);
+  border-color: var(--accent-color);
   background-color: rgba(255, 255, 255, 1);
 }
 
