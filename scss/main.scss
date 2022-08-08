@@ -1,6 +1,7 @@
 // utils styles
 @import './utils/veriables';
 @import './utils/visuality-hidden';
+@import './utils/placeholders';
 
 // base styles
 @import './base/base';
@@ -11,7 +12,7 @@
 @import './componets/container';
 @import './componets/backdrop';
 @import './componets/modal';
-@import './componets/form-modal';
+@import './componets/modal-form';
 
 // layout styles
 @import './layout/header';

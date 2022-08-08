@@ -74,23 +74,27 @@
   justify-content: center;
 }
 
-.register-form-agreement__checkbox:checked + .register-form-agreement__icon .register-form-agreement__icon--check {
-  opacity: 1;
-}
 
-.register-form-agreement__checkbox:checked + .register-form-agreement__icon.register-form-agreement__icon--uncheck {
-  opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
 .register-form-agreement__icon--check {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .register-form-agreement__checkbox:checked + .register-form-agreement__icon & {
+    opacity: 1;
+  }
+
+
 }
 
 .register-form-agreement__icon--uncheck {
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+.register-form-agreement__checkbox:checked + .register-form-agreement__icon & {
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 .register-form-agreement__icon--check {
