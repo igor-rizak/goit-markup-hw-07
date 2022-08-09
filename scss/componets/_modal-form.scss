@@ -55,8 +55,8 @@
   cursor: pointer;
 }
   
-.register-form__input:focus-within .register-form__icon,
-  .register-form__input:hover .register-form__icon{
+.register-form__input:focus-within + .register-form__icon,
+  .register-form__input:hover + .register-form__icon{
   fill: var(--accent-color);
 }
   
